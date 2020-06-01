@@ -10,8 +10,8 @@ body {
   text-align: center;
 }
 .btn {
-  border: 1px solid salmon;
-  background: rgb(201, 90, 77);
+  border: 2px rgb(233, 162, 32);
+  background: rgb(250, 163, 172);
   padding: 10px 20px;
   width: 3cm;
   font-size: 20px;
@@ -25,7 +25,7 @@ body {
   color: white;
 }
 .btn:hover {
-  color: black;
+  color: rgb(238, 221, 67);
   height: 0%;
 }
 .btn::before {
@@ -36,16 +36,16 @@ body {
   height: 100%;
   z-index: -1;
   transition: 0.8s;
-  color: salmon;
+  color: rgb(233, 162, 32);
   top: 0;
-  border-radius: 50% 50% 0 0;
+  border-radius: 70% 70% 70% 70%;
 }
 
 .footer {
   background-color: rgba(0, 0, 0, 0.514);
   margin-top: 3rem;
 
-  color: rgb(243, 168, 159);
+  color: rgb(224, 212, 96);
   text-align: center;
   height: 2.1;
   left: 0;
