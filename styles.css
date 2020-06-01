@@ -10,6 +10,7 @@ body {
   text-align: center;
 }
 .btn {
+  border-radius: 21%;
   border: 2px rgb(233, 162, 32);
   background: rgb(250, 163, 172);
   padding: 10px 20px;
