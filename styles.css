@@ -8,10 +8,27 @@ body {
 
 .container {
   text-align: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 3rem;
 }
+
+.grid {
+  display: grid;
+  text-align: center;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 .btn {
   border-radius: 21%;
   border: 2px rgb(233, 162, 32);
