@@ -19,7 +19,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 550px) {
   .grid {
     display: grid;
     text-align: center;
