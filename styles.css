@@ -23,64 +23,11 @@ body {
   .grid {
     display: grid;
     text-align: center;
+
     grid-template-columns: 1fr 1fr 1fr;
 
     grid-template-rows: 1fr 1fr;
   }
-}
-
-.btn {
-  border-radius: 21%;
-  border: 2px rgb(233, 162, 32);
-  background: rgb(250, 163, 172);
-  padding: 10px 20px;
-  width: 5cm;
-  font-size: 20px;
-  font-family: "montserrat";
-  font-weight: 200;
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
-  color: white;
-}
-.btn:hover {
-  color: rgb(238, 221, 67);
-  height: 0%;
-}
-.btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: 0.8s;
-  color: rgb(233, 162, 32);
-  top: 0;
-  border-radius: 70% 70% 70% 70%;
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0.514);
-  margin-top: 3rem;
-
-  color: rgb(224, 212, 96);
-  text-align: center;
-  height: 2.1;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: inline-block;
-}
-#grad {
-  background-image: linear-gradient(grey, white);
-}
-
-#bottomDiv {
-  position: absolute;
-  bottom: 0px;
 }
 
 .para {
@@ -93,4 +40,62 @@ body {
 }
 .cntr {
   text-align: center;
+}
+.imagedropshadow1 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow1 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(182, 49, 49);
+}
+.imagedropshadow2 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow2 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(28, 6, 88);
+}
+
+.imagedropshadow3 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow3 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(2, 145, 21);
+}
+
+.imagedropshadow4 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow4 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(201, 184, 36);
+}
+
+.imagedropshadow5 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow5 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(9, 151, 156);
+}
+
+.imagedropshadow6 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow6 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(135, 18, 170);
 }
