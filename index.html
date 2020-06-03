@@ -2,61 +2,79 @@
 <html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="height=device-height, initial-scale=1.0" />
-  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-  <head> </head>
+  <head>
+    <br />
+    <img src="./Banner.png" style="width: 100%;" height="100%" />
+  </head>
 
   <body>
     <link rel="stylesheet" href="styles.css" />
-    <img
-      class="bodycontainer"
-      src="./Banner.png"
-      style="width: 100%;"
-      height="100%"
-    />
+    <br />
+    <div class="grid container">
+      <div class="column" id="child">
+        <a :hover href="Children/ChildrenWelfare.html">
+          <img
+            class="imagedropshadow1"
+            src="Children/Children Welfare.png"
+            style="width: 70%;"
+        /></a>
+      </div>
 
-    <div class="box">
-      <li>
-        <a href="https://github.com/settings/profile" target="_blank"
-          ><i class="fa fa-github" aria-hidden="true"></i
-        ></a>
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/dwitrisha-saha-183606197/"
-          target="_blank"
-          ><i class="fa fa-linkedin" aria-hidden="true"></i
-        ></a>
-      </li>
+      <div class="column" id="old">
+        <a :hover href="Old/OldAgeHome.html">
+          <img
+            class="imagedropshadow2"
+            src="Old/Old Age Home.png"
+            style="width: 70%;"
+          />
+        </a>
+      </div>
+      <div class="column" id="animal">
+        <a :hover href="Animal/Animal.html">
+          <img
+            class="imagedropshadow3"
+            src="Animal/Animal Welfare.png"
+            style="width: 70%;"
+          />
+        </a>
+      </div>
+
+      <div class="column" id="fund">
+        <a :hover href="Fund/Fund.html">
+          <img
+            class="imagedropshadow4"
+            src="Fund/Fundraisers.png"
+            style="width: 70%;"
+          />
+        </a>
+      </div>
+
+      <div class="column" id="solo">
+        <a :hover href="Solo/Solo.html">
+          <img
+            class="imagedropshadow5"
+            src="Solo/Solo.png"
+            style="width: 70%;"
+          />
+        </a>
+      </div>
+
+      <div class="column" id="blood">
+        <a :hover href="Blood/Blood.html">
+          <img
+            class="imagedropshadow6"
+            src="Blood/Blood Donations.png"
+            style="width: 70%;"
+          />
+        </a>
+      </div>
     </div>
-
-    <section class="container">
-      <a href="about.html" target="_blank">
-        <button class="btn" :hover ::before>Resume</button>
-      </a>
-
-      <button class="btn" :hover ::before>Projects</button>
-
-      <a href="blog.html" target="_blank">
-        <button class="btn" :hover ::before>Articles</button>
-      </a>
-    </section>
-    <p class="para">
-      Hello World!My name is Dwitrisha and this is my trove of Tech and Art.I am
-      currently pursuing my B.tech in Information Technology from Manipal
-      Institute of Technology .Hope you find this small collection worthy of
-      your time!
-    </p>
-
-    <a href="mailto:dwitrisha@gmail.com?subject = Subject&body = Message">
-      <p class="cntr">
-        <img src="./Email.png" style="width: 40%;" height="40%" />
-      </p>
-    </a>
-
-    <img src="./Doodle1.png" style="width: 60%;" height="100%" /><img
-      src="./Doodle2.png"
-      style="width: 40%;"
-      height="100%"
-    />
   </body>
+
+  <footer>
+    <br />
+    <p class="container">
+      Made by<a : hover href="team.html "><button class="btn">Team</button></a>
+    </p>
+  </footer>
 </html>

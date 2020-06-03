@@ -3,88 +3,31 @@ body {
   padding: 0;
 
   font-family: "Lora";
-  background-color: rgba(102, 94, 94, 0.925);
+  background-color: rgb(250, 243, 203);
 }
 
 .container {
   text-align: center;
 }
-.contain {
-  position: relative;
-  width: 50%;
-}
-.contain img {
-  width: 100%;
-  height: auto;
-}
 
-/* Style the button and place it in the middle of the container/image */
-.contain .butn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.btn {
-  background-image: "https://image.flaticon.com/icons/svg/1807/1807616.svg";
-  border: 1px solid salmon;
-  background: rgb(201, 90, 77);
-  padding: 10px 20px;
-  width: 3cm;
-  font-size: 20px;
-  font-family: "montserrat";
-  font-weight: 200;
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
-  color: white;
-}
-.btn:hover {
-  color: black;
-  height: 0%;
-}
-.btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: 0.8s;
-  color: salmon;
-  top: 0;
-  border-radius: 50% 50% 0 0;
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0.514);
-  margin-top: 3rem;
-
-  color: rgb(243, 168, 159);
+.grid {
+  display: grid;
   text-align: center;
-  height: 2.1;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: inline-block;
-}
-#grad {
-  background-image: linear-gradient(grey, white);
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-#bottomDiv {
-  position: absolute;
-  bottom: 0px;
+@media (min-width: 550px) {
+  .grid {
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 .para {
@@ -98,34 +41,95 @@ body {
 .cntr {
   text-align: center;
 }
+.imagedropshadow1 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow1 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(182, 49, 49);
+}
+.imagedropshadow2 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow2 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(28, 6, 88);
+}
 
-.box {
-  padding: 0;
+.imagedropshadow3 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow3 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(2, 145, 21);
+}
 
-  margin: auto;
+.imagedropshadow4 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow4 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(201, 184, 36);
+}
+
+.imagedropshadow5 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow5 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(9, 151, 156);
+}
+
+.imagedropshadow6 {
+  padding: 5px;
+  border: solid 1px #efefef;
+}
+a:hover img.imagedropshadow6 {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 3px 3px 5px rgb(135, 18, 170);
+}
+
+.btn {
   text-align: center;
-  color: white;
-  font-family: "Century Gothic", sans-serif;
-}
-
-.box p {
-  text-align: justify;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-.box li {
-  display: inline-block;
+  background-image: "https://image.flaticon.com/icons/svg/1807/1807616.svg";
+  border: 1px solid salmon;
+  background: rgb(231, 152, 143);
+  padding: 10px 20px;
+  width: 2cm;
+  height: 1cm;
+  font-size: 15px;
+  font-family: "montserrat";
+  font-weight: 200;
+  cursor: pointer;
   margin: 10px;
-  list-style: none;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  color: white;
 }
-.box li a {
-  color: rgb(238, 207, 207);
-  text-decoration: none;
-  font-size: 30px;
-  transition: all ease-in-out 250ms;
+.btn:hover {
+  color: black;
 }
-.box li a:hover {
-  color: #000000;
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.8s;
+  color: salmon;
+  top: 0;
+  border-radius: 50% 50% 0 0;
 }
