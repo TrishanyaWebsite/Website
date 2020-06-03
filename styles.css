@@ -99,3 +99,7 @@ a:hover img.imagedropshadow6 {
   -webkit-box-shadow: 1px 1px 5px #999;
   box-shadow: 3px 3px 5px rgb(135, 18, 170);
 }
+
+.button {
+  text-align: center;
+}
